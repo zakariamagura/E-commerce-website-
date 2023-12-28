@@ -321,3 +321,48 @@ footer p{
     text-align: center;
     color: white;
 }
+/* mobile view */
+
+@media(max-width: 768px){
+   .logo{
+       position: absolute;
+       top: 10px;
+       left: 10px;
+   }
+   .SearchArea{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    }
+    .section1 img{
+    height: 90px;
+}
+.section1button h1,h2{
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 20px;
+}
+.ProductSection{
+    margin-left: 10vw;
+    box-shadow: 2px 2px -2px -2px 30px rgba(0,0,0,0.3);
+    border: 0.5px solid rgba(0,0,0,0.2);
+    
+}
+.Notification{
+    margin-left: 10vw;
+}
+.NotificationInput{
+    width: 200px;
+}
+.aboutBox h4{
+    font-size: 4px;
+}
+.about .aboutBox p{
+    font-size: 0.5px;
+}
+.about .aboutBox img{
+    float: right;
+}
+}
+
+
